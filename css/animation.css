@@ -1,0 +1,19 @@
+/* 간단한 애니메이션을 만들때 from to , 0% 100%는 좀더 세밀한 설정가능 */
+@keyframes fadeIn {
+  /* 안보이다 나타남 */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  /* 보이다 사라짐 */
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

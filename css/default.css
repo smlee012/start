@@ -1,0 +1,8 @@
+/* 모든 글자에 이폰트를 사용한다. */
+* {
+  font-family: "Single Day", cursive;
+}
+
+body {
+  background-color: pink;
+}
